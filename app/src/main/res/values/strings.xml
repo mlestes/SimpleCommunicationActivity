@@ -3,4 +3,5 @@
     <string name="edit_hint">Enter Text Here</string>
     <string name="send_btn_txt">Send</string>
     <string name="default_txt">No Response!</string>
+    <string name="default_give_txt">You didn\'t send anyting!</string>
 </resources>

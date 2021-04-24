@@ -29,4 +29,8 @@
         <item name="background">@color/realRed</item>
         <item name="android:textSize">32sp</item>
     </style>
+    <style name="GivenTxt">
+        <item name="android:textColor">@color/yellow</item>
+        <item name="android:textSize">32sp</item>
+    </style>
 </resources>

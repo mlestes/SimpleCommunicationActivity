@@ -5,7 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#66ee23">
+    android:background="#11331f">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/act_2_prev_txt"
+        style="@style/GivenTxt"
+        android:text="@string/default_give_txt"
+        app:layout_constraintStart_toStartOf="@id/act_2_rcv_txt"
+        app:layout_constraintBottom_toTopOf="@id/act_2_rcv_txt"
+        app:layout_constraintEnd_toEndOf="@id/act_2_rcv_txt"
+        />
 
     <TextView
         android:id="@+id/act_2_rcv_txt"

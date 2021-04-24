@@ -8,6 +8,17 @@
     android:background="#44ffae">
 
     <TextView
+        android:id="@+id/act_2_prev_txt"
+        style="@style/GivenTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/default_give_txt"
+        app:layout_constraintStart_toStartOf="@id/act_1_rcv_txt"
+        app:layout_constraintBottom_toTopOf="@id/act_1_rcv_txt"
+        app:layout_constraintEnd_toEndOf="@id/act_1_rcv_txt"
+        />
+
+    <TextView
         android:id="@+id/act_1_rcv_txt"
         style="@style/ReceiveTxt"
         android:layout_width="wrap_content"
