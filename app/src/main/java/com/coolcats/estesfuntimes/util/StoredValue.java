@@ -1,4 +1,4 @@
-package com.coolcats.estesfuntimes;
+package com.coolcats.estesfuntimes.util;
 
 import android.app.Application;
 
