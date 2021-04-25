@@ -4,4 +4,6 @@
     <string name="send_btn_txt">Send</string>
     <string name="default_txt">No Response!</string>
     <string name="default_give_txt">You didn\'t send anyting!</string>
+    <string name="prev_id">You last said:</string>
+    <string name="rec_id">They said:</string>
 </resources>

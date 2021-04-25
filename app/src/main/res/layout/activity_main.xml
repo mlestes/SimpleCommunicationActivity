@@ -5,17 +5,40 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#44ffae">
+    android:background="#544554">
 
     <TextView
-        android:id="@+id/act_2_prev_txt"
-        style="@style/GivenTxt"
+        android:id="@+id/rec_id_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/default_give_txt"
-        app:layout_constraintStart_toStartOf="@id/act_1_rcv_txt"
-        app:layout_constraintBottom_toTopOf="@id/act_1_rcv_txt"
+        android:text="@string/rec_id"
+        android:textColor="@color/pink"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@id/act_1_rcv_txt"
+        app:layout_constraintBottom_toTopOf="@id/act_1_rcv_txt"
+        />
+
+    <TextView
+        android:id="@+id/send_id_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/prev_id"
+        android:textColor="@color/yellow"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@id/act_1_prev_txt"
+        app:layout_constraintBottom_toTopOf="@id/act_1_prev_txt"
+        />
+
+    <TextView
+        android:id="@+id/act_1_prev_txt"
+        style="@style/GivenTxt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/default_give_txt"
+        android:layout_marginBottom="32dp"
+        android:layout_marginHorizontal="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/rec_id_1"
         />
 
     <TextView
@@ -24,12 +47,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/default_txt"
+        android:layout_marginHorizontal="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/act_1_send_btn"
         style="@style/ActivityOneSendButton"
         android:text="@string/send_btn_txt"
